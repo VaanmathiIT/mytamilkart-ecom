@@ -1,0 +1,880 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+   
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>MyTamilKart</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+      <!-- Place favicon.ico in the root directory -->
+       <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+
+         <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon/favicon.png"> -->
+
+         <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+         <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+         <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+         <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+         <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+         <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+         <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+         <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+         <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+         <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+         <link rel="manifest" href="assets/img/favicon/manifest.json">
+         <meta name="msapplication-TileColor" content="#ffffff">
+         <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png"> 
+         <meta name="theme-color" content="#ffffff">
+
+      
+      <!-- Fonts Used -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/customstyle.css">
+
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- <link rel="stylesheet" href="assets/css/slick.css"> -->
+      <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/spacing.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body class="accent-custom">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                 <i class="fa-solid fa-xmark"></i>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo headerlogo">
+                     <a href="#">
+                        <img src="assets/img/logo/logo.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+              
+               <div class="tp-main-menu-mobile fix mb-40"></div>
+
+            </div>
+
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
+
+      <!-- mobile menu area start -->
+      <div id="tp-bottom-menu-sticky" class="tp-mobile-menu d-xl-none">
+         <div class="container">
+            <div class="row row-cols-5 justify-content-center">
+              
+               <div class="col">
+                  <div class="tp-mobile-item text-center">
+                     <button class="tp-mobile-item-btn tp-search-open-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search</span>
+                     </button>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="tp-mobile-item text-center mobile_profile_menu">
+                     <a href="#" class="tp-mobile-item-btn">
+                        <!-- <img src="assets/img/profile/profile_avatar.png" alt="" class="mobile_profileimg"> -->
+                        <span class="mobilelogin_nameinitial">A</span>
+                        <span>Account</span>
+                     </a>
+                  </div>
+               </div>
+               
+            
+            </div>
+         </div>
+      </div>
+      <!-- mobile menu area end -->
+
+      <!-- search area start -->
+      <section class="tp-search-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-search-form p-relative">
+                     <div class="tp-search-close text-center mb-20">
+                        <button class="tp-search-close-btn tp-search-close-btn"></button>
+                     </div>
+                     <form action="#">
+                        <div class="header_search_wrapper">
+                       <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="header_search_seltxt">Smart Phone</span></button>
+                        <ul class="dropdown-menu scrollbar_style">
+                           <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                           <li><a class="dropdown-item" href="#">Bluetooth</a></li>
+                           <li><a class="dropdown-item" href="#">Baby</a></li>
+                           <li><a class="dropdown-item" href="#">Books</a></li>
+                           <li><a class="dropdown-item" href="#">...</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                         <span class="input-group-text"><i class="fa-solid fa-magnifying-glass crsr_pntr"></i></span>
+                        </div>
+                        </div>
+                         
+                        
+                     </form>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- search area end -->
+
+
+
+      <!-- header area start -->
+      <header class="fixed-top">
+         <div class="tp-header-area p-relative z-index-11">
+           
+
+            <!-- header main start -->
+            <div class="tp-header-main tp-header-sticky">
+               <div class="container-fluid">
+                  <div class="row align-items-center">
+                     <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-12">
+                        <div class="header_left_wrapper">
+                        <div class="headerlogo">
+                           <a href="#">
+                              <img src="assets/img/logo/logo.png" alt="logo">
+                           </a>
+                        </div>
+
+                        <div class="header_deliveryloc">
+                           <i class="fa-solid fa-location-dot f_sz16 mr-10"></i>
+                           <div class="d-flex flex-column flex-wrap">
+                              <div class="f_sz12">Where to deliver?</div>
+                              <div class="f_bold">Update Location</div>
+                           </div>
+                        </div>
+
+                        </div>
+
+                     </div>
+                     <div class="col-xxl-6 col-xl-5 col-lg-6 header_search_wdth d-none d-xl-block">
+                       <div class="header_search_wrapper">
+                       <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="header_search_seltxt">Smart Phone</span></button>
+                        <ul class="dropdown-menu scrollbar_style">
+                           <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                           <li><a class="dropdown-item" href="#">Bluetooth</a></li>
+                           <li><a class="dropdown-item" href="#">Baby</a></li>
+                           <li><a class="dropdown-item" href="#">Books</a></li>
+                           <li><a class="dropdown-item" href="#">...</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                         <span class="input-group-text"><i class="fa-solid fa-magnifying-glass crsr_pntr"></i></span>
+                        </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-12 header_rgticons_wdth">
+                        <div class="tp-header-main-right d-flex align-items-center justify-content-center justify-content-md-end pe-3">
+                           <div class="tp-header-action d-flex align-items-center">
+                                <div class="tp-header-action-item d-inline-flex">
+                                    <div class="dropdown language_drpdwn">
+                                    <a class="dropdown-toggle f_sz13" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                       <i class="fa-solid fa-globe"></i>
+                                       <!-- <span>தமிழ்</span> -->
+                                       <span>En</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                       <li><a class="dropdown-item" href="#">தமிழ்</a></li>
+                                       <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                    </div>
+                              </div> 
+
+                           </div>
+                           
+
+                           <div class="tp-header-login d-none d-xl-block ml-25">
+
+                              <!-- <a href="#" class="tp_login_btn">Sign In</a> -->
+                          
+
+                              <a href="profile.html" class="d-flex align-items-center">
+                                  <div class="tp-header-login-icon">
+                                    <span>
+                                       <span class="login_nameinitial">A</span>
+                                      <!-- <img src="assets/img/profile/profile_avatar.png" alt=""> -->
+                                    </span>
+                                 </div>
+                                 <div class="tp-header-login-content d-none d-xl-block">
+                                    <span>Hello,</span>
+                                    <h5 class="tp-header-login-title">Alexander</h5>
+                                 </div>
+                              </a>
+                           </div>
+
+                          
+
+                           
+                           <div class="tp-header-action d-flex align-items-center ml-25 mt-5">
+                             
+                              <div class="tp-header-action-item">
+                                 <a href="#" class="tp-header-action-btn">
+                                   <i class="fa-solid fa-heart"></i>
+                                    <!-- <span class="tp-header-action-badge">4</span>                           -->
+                                 </a>
+                              </div>
+                              <div class="tp-header-action-item">
+                                 <a href="#" class="tp-header-action-btn cartmini-open-btn">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span class="tp-header-action-badge">13</span>                                                                          
+                                 </a>
+                              </div>
+                              <div class="tp-header-action-item d-lg-none">
+                                 <button type="button" class="tp-header-action-btn tp-offcanvas-open-btn">
+                                   <i class="fa-solid fa-bars-staggered"></i>
+                                 </button>
+                              </div>
+                              
+                           </div>
+                        </div>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+
+            <!-- header bottom start -->
+            <div class="tp-header-bottom tp-header-top-border d-none d-lg-block">
+               <div class="container-fluid">
+                  <div class="tp-mega-menu-wrapper p-relative">
+                     <div class="row align-items-center">
+                        
+                        <div class="col-xl-12 col-lg-12">
+                           <div class="main-menu menu-style-1">
+                              <nav class="tp-main-menu-content text-sm-start text-md-center">
+                                 <ul>
+                                
+                                    <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Mobiles</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                     <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Books</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                    <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Electronics</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                           <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                     <li class="has-dropdown">
+                                       <a href="#">Fashion</a>
+                                       <ul class="tp-submenu">
+                                           <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                       </ul>
+                                    </li>
+                                   
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      
+      <!-- header area end -->
+
+      <main>
+
+      <!-- breadcrumb area start -->
+         <section class="breadcrumb__area breadcrumb__style-2 include-bg pt-150 pb-20">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-12">
+                      <div class="breadcrumb__content p-relative z-index-1">
+                        <h3 class="breadcrumb__title">Invoice</h3>
+                        <div class="breadcrumb__list">
+                           <span><a href="#">Your Account</a></span>
+                           <span>Invoice</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- breadcrumb area end -->
+
+         <!-- invoice area start -->
+         <section class="tp-wallet-area p-relative">
+            <div class="container">
+                
+               <div class="row">
+                  
+                  <div class="col-xl-12">
+                     <div class="tp-shop-main-wrapper">
+                        
+                        <div class="tp-shop-top mb-80">
+
+                      
+                            <div class="tp-shop-items-wrapper tp-shop-item-primary wallettranstbl_wrapper">
+                             <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                               <div class="table-responsive">
+                                 
+                                 <table width="100%" cellpadding="0" cellspacing="0" class="table" style="font-family:Arial; font-size:16px; color:#000000; line-height:25px;">
+                                 <tr>
+                                 <td valign="top">
+                                    <img src="assets/img/logo/logo.png" alt="MYTAMILKART" style="display: block; margin-bottom: 10px;"/>
+                                 </td>
+                                 <td align="right">
+                                    <div style="font-weight: bold; font-size: 18px;">Tax Invoice/Bill of Supply/Cash Memo</div>
+                                    <div style="font-size: 18px;">(Original for Recipient)</div>
+                                 </td>
+                                 </tr>
+
+                                 <tr>
+                                 <td valign="top">
+                                 <div>
+                                 <div style="font-size:18px; padding-bottom:10px;"><strong>Sold By :</strong></div>
+                                 <span style="font-size:17px; color:#000000;">
+                                 MyTamilKart<br/>
+                                 xxxx xxxxxxxx xxxxxxxx, <br/>
+                                 xxxx xxxxxxxx xxxxxxxx
+                                 </span>
+                                 </div>
+                                 </td>
+                                 <td valign="top">
+                                 <div style="text-align: right;">
+                                 <div style="font-size:18px; padding-bottom:10px;"><strong> Billing Address :</strong></div>
+                                 <span style="font-size:17px; color:#000000;">
+                                 Alexander Pierce<br/>
+                                 Lorem Ipsum is simply dummy typesetting industry,<br/>
+                                 Lorem Ipsum is simply dummy typesetting industry,<br/>
+                                 Coimbatore, TAMIL NADU, 641021, IN
+                                 </span>
+                                 <div><strong>State/UT Code:</strong> 33</div>
+                                 </div>
+                                 </td>
+                                 </tr>
+
+                                 <tr>
+                                 <td valign="top">
+                                 <div>
+                                 <span style="font-size:17px; color:#000000;">
+                                 <strong>PAN No:</strong> XXXXXXXXXX<br/>
+                                 <strong>GST Registration No: </strong> XXXXXXXXXX<br/>
+                                 <strong> CIN No: </strong> XXXXXXXXXX
+                                 </span>
+                                 </div>
+                                 </td>
+                                 <td valign="top">
+                                 <div style="text-align: right;">
+                                 <div style="font-size:18px; padding-bottom:10px;"><strong> Shipping Address :</strong></div>
+                                 <span style="font-size:17px; color:#000000;">
+                                 Alexander Pierce<br/>
+                                 Lorem Ipsum is simply dummy typesetting industry,<br/>
+                                 Lorem Ipsum is simply dummy typesetting industry,<br/>
+                                 Coimbatore, TAMIL NADU, 641021, IN<br/>
+                                 <div><strong>State/UT Code:</strong> 33</div>
+                                 </div>
+                                 </td>
+                                 </tr>
+
+                                 <tr>
+                                 <td valign="top">
+                                 <div>
+                                 <span style="font-size:17px; color:#000000;">
+                                 <strong> Order Number:</strong> 407-1962482-9591527<br/>
+                                 <strong> Order Date: </strong> 24.05.2025
+                                 </span>
+                                 
+                                 </div>
+                                 </td>
+                                 <td valign="top">
+                                 <div style="text-align:right;">
+                                 
+                                 <div style="padding-bottom:10px;">
+                                 <span style="font-size:16px;"><strong>Place of supply:</strong></span> TAMIL NADU
+                                 </div>
+
+                                  <div style="padding-bottom:10px;">
+                                 <span style="font-size:16px;"><strong> Place of delivery:</strong></span> TAMIL NADU
+                                 </div>
+
+                                 <div style="padding-bottom:10px;">
+                                 <span style="font-size:16px;"><strong> Invoice Number:</strong></span> 
+                                 001/2025
+                                 </div>
+
+                                 <div style="padding-bottom:10px;">
+                                 <span style="font-size:16px;"><strong>  Invoice Details:</strong></span> 
+                                 KA-BLR8-1044-2526
+                                 </div>
+
+                                 <div style="padding-bottom:10px;">
+                                 <span style="font-size:16px;"><strong>Invoice Date and Time:</strong></span>
+                                 08/19/2025 05:30pm
+                                 </div>
+
+                                  <div>
+                                 <span style="font-size:16px;"><strong>Mode of Payment:</strong></span>
+                                 Debit Card
+                                 </div>
+
+                                 </div>
+                                 </td>
+                                 </tr>
+
+                                 <tr><td colspan="2">&nbsp;</td></tr>
+
+                                 <tr>
+                                 <td colspan="2">
+                                 <table width="100%" cellpadding="10" cellspacing="0">
+                                 <tr>
+                                    <th style="border-bottom:1px solid #dee2e6;">Sl. No </th>
+                                    <th width="200" style="border-bottom:1px solid #dee2e6;">Description </th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Unit Price</th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Discount</th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Qty</th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Net Amount </th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Tax Rate </th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Tax Type </th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Tax Amount </th>
+                                    <th style="border-bottom:1px solid #dee2e6; text-align: right;">Total Amount</th>
+                                 </tr>
+                                 <tr>
+                                    <td style="border-bottom:1px solid #dee2e6;">1</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 12px;"></i>1,473.33</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 12px;"></i>1,473.33</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;">1</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 12px;"></i>1,326.00</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;">5%</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;">IGST</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 12px;"></i>66.30</td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 12px;"></i>1,392.30</td>
+                                 </tr>
+                                 <tr><td colspan="10">&nbsp;</td></tr>
+                                 <tr>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6;">&nbsp;</td>
+                                    <td style="border-bottom:1px solid #dee2e6; font-size:20px; text-align: right; padding-bottom: 10px;"><strong>Total</strong></td>
+                                    <td style="border-bottom:1px solid #dee2e6; text-align: right; padding-bottom: 10px;"><strong><i class="fa-solid fa-indian-rupee-sign" style="font-size: 14px;"></i>66.30</strong></td>
+                                    <td align="right" style="border-bottom:1px solid #dee2e6; color:#000000; padding-bottom: 10px;"><strong><i class="fa-solid fa-indian-rupee-sign" style="font-size: 14px;"></i>1,392.30</strong></td>
+                                 </tr>
+                                 
+                                 <tr>
+                                    <td colspan="10" style="padding-top: 10px; padding-bottom: 10px; border-bottom:1px solid #dee2e6;">
+                                       <strong>
+                                       Amount in Words:<br/>
+                                       One Thousand Three Hundred Ninety-two Point Three only
+                                       </strong>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="10" style="padding-top: 10px; padding-bottom: 10px; text-align: right;">
+                                       <strong>
+                                       For R K WorldInfocom Pvt Ltd:<br/>
+                                        Authorized Signatory
+                                       </strong>
+                                    </td>
+                                 </tr>
+                                 </table>
+                                 </td>
+                                 </tr>
+
+                                 <tr><td colspan="2">
+                                 <table width="100%" cellpadding="10" cellspacing="0">
+                                   <tr>
+                                    <td>
+                                        <strong>Payment Transaction ID:</strong> <br/>
+                                        ksdfosf565fdsdfs65fds6f5
+                                    </td>
+                                    <td>
+                                       <strong>Date & Time:</strong> <br/>
+                                       24/09/2025, 15:30:16 hrs
+                                    </td>
+                                    <td>
+                                       <strong>Invoice Value:</strong> <br/>
+                                       1,392.30
+                                    </td>
+                                    <td>
+                                        <strong>Mode of Payment:</strong> <br/>
+                                        Debit Card
+                                    </td>
+                                   </tr> 
+                                 </table>
+                                 </td></tr>
+
+
+
+                                 </table>
+                                </div> 
+                              </div>
+
+                            </div>                       
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+              
+               
+            </div> 
+            
+
+         </section>
+         <!-- invoice area end -->
+
+
+           
+
+      </main>
+      
+      
+ <!-- footer area start -->
+      <footer class="mt-auto">
+         <div class="tp-footer-area tp-footer-style-2 tp-footer-style-primary tp-footer-style-6 pt-60 pb-30 pb-xl-0">
+            <div class="tp-footer-top pb-30">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-1 mb-20"> 
+                           <div class="tp-footer-widget-content">
+                              <div class="tp-footer-logo text-xl-start text-center">
+                                 <a href="#">
+                                    <img src="assets/img/logo/logo.png" alt="MYTAMILKART">
+                                 </a>
+                              </div>
+
+                              <div class="tp-footer-social text-center text-lg-start">
+                                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                              </div>
+                            
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Contact Us</a></li>
+                                 <li><a href="#">Cancellation & Refund </a></li>
+                                 <li><a href="#">Shipping Policy</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content justify-content-start justify-content-md-end d-flex">
+                              <div class="tp-footer-contact">
+                                 
+                                 <div class="tp-footer-contact-item d-flex align-items-start">
+                                    <div class="tp-footer-contact-icon">
+                                       <span>
+                                          <i class="fa-solid fa-location-dot"></i>
+                                       </span>
+                                    </div>
+                                    <div class="tp-footer-contact-content">
+                                       <div class="f_white f_sz16">S F No 435/1 C1 A5   BLE Media Building 1st Floor, <br> Palathurai Road, Madukkarai, Coimbatore - 641105</div>
+                                    </div>
+                                 </div>
+
+                                 <div class="tp-footer-contact-item d-flex align-items-start mt-25">
+                                    <div class="tp-footer-contact-icon">
+                                       <span>
+                                         <i class="fa-solid fa-phone"></i>
+                                       </span>
+                                    </div>
+                                    <div class="tp-footer-contact-content">
+                                       <p><a href="#"><span class="f_white">xxxxxx8536</span></a></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                   
+
+                     <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">எங்களைப் பற்றி</a></li>
+                                 <li><a href="#">தனியுரிமை</a></li>
+                                 <li><a href="#">விதிமுறைகள்</a></li>
+                                 <li><a href="#">தொடர்பு</a></li>
+                                 <li><a href="#">அடிக்கடி கேட்கப்படும் கேள்விகள்</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">உதவி மையம்</a></li>
+                                 <li><a href="#">வலைப்பதிவு</a></li>
+                                 <li><a href="#">அனுமதி இல்லாத பொருட்கள்</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">வேலை வாய்ப்புகள்</a></li>
+                                 <li><a href="#">வர்த்தக அடையாளம்</a></li>
+                                 <li><a href="#">ஊடக விசாரணை</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div> -->
+
+
+                     
+                  </div>
+               </div>
+            </div>
+
+            <div class="tp-footer-bottom">
+               <div class="container">
+                  <div class="tp-footer-bottom-wrapper">
+                     <div class="row align-items-center">
+                        <div class="col-md-12">
+                           <div class="tp-footer-copyright text-center">
+                              <p>Copyright © 2025.All Rights Reserved</p>
+                           </div>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+         </div>
+      </footer>
+      <!-- footer area end -->
+
+
+      <!-- JS here -->
+      <script src="assets/js/vendor/jquery.js"></script>
+      <!-- <script src="assets/js/vendor/waypoints.js"></script> -->
+      <script src="assets/js/bootstrap-bundle.js"></script>
+      <script src="assets/js/meanmenu.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!--<script src="assets/js/slick.js"></script> -->
+      <!-- <script src="assets/js/range-slider.js"></script>
+      <script src="assets/js/magnific-popup.js"></script> -->
+      <script src="assets/js/nice-select.js"></script>
+      <!-- <script src="assets/js/purecounter.js"></script>
+      <script src="assets/js/countdown.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/isotope-pkgd.js"></script>
+      <script src="assets/js/imagesloaded-pkgd.js"></script>
+      <script src="assets/js/ajax-form.js"></script> -->
+      <script src="assets/js/main.js"></script>
+     
+   </body>
+
+</html>

@@ -1,0 +1,1157 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+   
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>MyTamilKart</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+      <!-- Place favicon.ico in the root directory -->
+       <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+
+         <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon/favicon.png"> -->
+
+         <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+         <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+         <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+         <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+         <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+         <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+         <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+         <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+         <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+         <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+         <link rel="manifest" href="assets/img/favicon/manifest.json">
+         <meta name="msapplication-TileColor" content="#ffffff">
+         <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png"> 
+         <meta name="theme-color" content="#ffffff">
+
+      
+      <!-- Fonts Used -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/customstyle.css">
+
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- <link rel="stylesheet" href="assets/css/slick.css"> -->
+      <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/spacing.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body class="accent-custom">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                 <i class="fa-solid fa-xmark"></i>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo headerlogo">
+                     <a href="#">
+                        <img src="assets/img/logo/logo.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+              
+               <div class="tp-main-menu-mobile fix mb-40"></div>
+
+            </div>
+
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
+
+      <!-- mobile menu area start -->
+      <div id="tp-bottom-menu-sticky" class="tp-mobile-menu d-xl-none">
+         <div class="container">
+            <div class="row row-cols-5 justify-content-center">
+              
+               <div class="col">
+                  <div class="tp-mobile-item text-center">
+                     <button class="tp-mobile-item-btn tp-search-open-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search</span>
+                     </button>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="tp-mobile-item text-center mobile_profile_menu">
+                     <a href="#" class="tp-mobile-item-btn">
+                        <!-- <img src="assets/img/profile/profile_avatar.png" alt="" class="mobile_profileimg"> -->
+                        <span class="mobilelogin_nameinitial">A</span>
+                        <span>Account</span>
+                     </a>
+                  </div>
+               </div>
+               
+            
+            </div>
+         </div>
+      </div>
+      <!-- mobile menu area end -->
+
+      <!-- search area start -->
+      <section class="tp-search-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-search-form p-relative">
+                     <div class="tp-search-close text-center mb-20">
+                        <button class="tp-search-close-btn tp-search-close-btn"></button>
+                     </div>
+                     <form action="#">
+                        <div class="header_search_wrapper">
+                       <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="header_search_seltxt">Smart Phone</span></button>
+                        <ul class="dropdown-menu scrollbar_style">
+                           <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                           <li><a class="dropdown-item" href="#">Bluetooth</a></li>
+                           <li><a class="dropdown-item" href="#">Baby</a></li>
+                           <li><a class="dropdown-item" href="#">Books</a></li>
+                           <li><a class="dropdown-item" href="#">...</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                         <span class="input-group-text"><i class="fa-solid fa-magnifying-glass crsr_pntr"></i></span>
+                        </div>
+                        </div>
+                         
+                        
+                     </form>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- search area end -->
+
+
+
+      <!-- header area start -->
+      <header class="fixed-top">
+         <div class="tp-header-area p-relative z-index-11">
+           
+
+            <!-- header main start -->
+            <div class="tp-header-main tp-header-sticky">
+               <div class="container-fluid">
+                  <div class="row align-items-center">
+                     <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-12">
+                        <div class="header_left_wrapper">
+                        <div class="headerlogo">
+                           <a href="#">
+                              <img src="assets/img/logo/logo.png" alt="logo">
+                           </a>
+                        </div>
+
+                        <div class="header_deliveryloc">
+                           <i class="fa-solid fa-location-dot f_sz16 mr-10"></i>
+                           <div class="d-flex flex-column flex-wrap">
+                              <div class="f_sz12">Where to deliver?</div>
+                              <div class="f_bold">Update Location</div>
+                           </div>
+                        </div>
+
+                        </div>
+
+                     </div>
+                     <div class="col-xxl-6 col-xl-5 col-lg-6 header_search_wdth d-none d-xl-block">
+                       <div class="header_search_wrapper">
+                       <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="header_search_seltxt">Smart Phone</span></button>
+                        <ul class="dropdown-menu scrollbar_style">
+                           <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                           <li><a class="dropdown-item" href="#">Bluetooth</a></li>
+                           <li><a class="dropdown-item" href="#">Baby</a></li>
+                           <li><a class="dropdown-item" href="#">Books</a></li>
+                           <li><a class="dropdown-item" href="#">...</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                         <span class="input-group-text"><i class="fa-solid fa-magnifying-glass crsr_pntr"></i></span>
+                        </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-12 header_rgticons_wdth">
+                        <div class="tp-header-main-right d-flex align-items-center justify-content-center justify-content-md-end pe-3">
+                           <div class="tp-header-action d-flex align-items-center">
+                                <div class="tp-header-action-item d-inline-flex">
+                                    <div class="dropdown language_drpdwn">
+                                    <a class="dropdown-toggle f_sz13" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                       <i class="fa-solid fa-globe"></i>
+                                       <!-- <span>தமிழ்</span> -->
+                                       <span>En</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                       <li><a class="dropdown-item" href="#">தமிழ்</a></li>
+                                       <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                    </div>
+                              </div> 
+
+                           </div>
+                           
+
+                           <div class="tp-header-login d-none d-xl-block ml-25">
+
+                              <!-- <a href="#" class="tp_login_btn">Sign In</a> -->
+                          
+
+                              <a href="profile.html" class="d-flex align-items-center">
+                                  <div class="tp-header-login-icon">
+                                    <span>
+                                       <span class="login_nameinitial">A</span>
+                                      <!-- <img src="assets/img/profile/profile_avatar.png" alt=""> -->
+                                    </span>
+                                 </div>
+                                 <div class="tp-header-login-content d-none d-xl-block">
+                                    <span>Hello,</span>
+                                    <h5 class="tp-header-login-title">Alexander</h5>
+                                 </div>
+                              </a>
+                           </div>
+
+                          
+
+                           
+                           <div class="tp-header-action d-flex align-items-center ml-25 mt-5">
+                             
+                              <div class="tp-header-action-item">
+                                 <a href="#" class="tp-header-action-btn">
+                                   <i class="fa-solid fa-heart"></i>
+                                    <!-- <span class="tp-header-action-badge">4</span>                           -->
+                                 </a>
+                              </div>
+                              <div class="tp-header-action-item">
+                                 <a href="#" class="tp-header-action-btn cartmini-open-btn">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span class="tp-header-action-badge">13</span>                                                                          
+                                 </a>
+                              </div>
+                              <div class="tp-header-action-item d-lg-none">
+                                 <button type="button" class="tp-header-action-btn tp-offcanvas-open-btn">
+                                   <i class="fa-solid fa-bars-staggered"></i>
+                                 </button>
+                              </div>
+                              
+                           </div>
+                        </div>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+
+            <!-- header bottom start -->
+            <div class="tp-header-bottom tp-header-top-border d-none d-lg-block">
+               <div class="container-fluid">
+                  <div class="tp-mega-menu-wrapper p-relative">
+                     <div class="row align-items-center">
+                        
+                        <div class="col-xl-12 col-lg-12">
+                           <div class="main-menu menu-style-1">
+                              <nav class="tp-main-menu-content text-sm-start text-md-center">
+                                 <ul>
+                                
+                                    <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Mobiles</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                     <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Books</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                    <li class="has-dropdown has-mega-menu ">
+                                       
+                                       <a href="#">Electronics</a>
+                                       <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
+                                          <!-- first col -->
+                                          <li class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Smart Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Feature Phones</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Basic Keypad Phones</a></li>
+                                                <li><a href="#">Senior-Friendly Phones</a></li>
+                                                <li><a href="#">Rugged Phones</a></li>
+                                             </ul>
+                                          </li>
+                                          <!-- third col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Accessories</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Cases & Covers</a></li>
+                                                <li><a href="#">Screen Protectors</a></li>
+                                                <li><a href="#">Power Banks</a></li>
+                                                <li><a href="#">Chargers & Cables</a></li>
+                                                <li><a href="#">Headphones & Earphones</a></li>
+                                                <li><a href="#">Smartwatches & Wearables</a></li>
+                                             </ul>
+                                          </li>
+
+                                          <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                           <!-- second col -->
+                                          <li  class="has-dropdown">
+                                             <a href="#" class="mega-menu-title">Tablets & eReaders</a>
+                                             <ul class="tp-submenu">
+                                                <li><a href="#">Tablets</a></li>
+                                                <li><a href="#">eReaders</a></li>
+                                                <li><a href="#">Tablet Accessories</a></li>
+                                             </ul>
+                                          </li>
+
+                                       </ul>
+                                    </li>
+
+                                     <li class="has-dropdown">
+                                       <a href="#">Fashion</a>
+                                       <ul class="tp-submenu">
+                                           <li><a href="#">Android Phones</a></li>
+                                                <li><a href="#">iPhones</a></li>
+                                                <li><a href="#">Gaming Phones</a></li>
+                                                <li><a href="#">Foldable Phones</a></li>
+                                                <li><a href="#">5G Phones</a></li>
+                                                <li><a href="#">Refurbished Phones</a></li>
+                                       </ul>
+                                    </li>
+                                   
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      
+      <!-- header area end -->
+
+      <!-- filter offcanvas area start -->
+      <div class="tp-filter-offcanvas-area">
+         <div class="tp-filter-offcanvas-wrapper">
+            <div class="filter_title_wrapper mb-15">
+               <h4>Filter</h4>
+
+               <div class="tp-filter-offcanvas-close">
+                  <button type="button" class="filter-close-btn"><i class="fa-solid fa-xmark f_sz24"></i></button>
+               </div>
+            </div>   
+
+
+            <div class="tp-shop-sidebar">
+                <!-- Price -->
+
+                 <div class="top_products_filtertype p-relative">
+                        <h3 class="tp-shop-widget-title">Price</h3>
+                        <div class="mb-35">
+                           <div class="tp-shop-widget-filter">
+                              <div class="tp-order-info-list-shipping-item d-flex flex-column align-items-start">
+                                 <div class="tp-checkout-payment-item">
+                                    <input type="radio" id="pricerange1" name="payment" checked="checked">
+                                    <label for="pricerange1">Any</label>
+                                 </div>   
+                                 <div class="tp-checkout-payment-item">
+                                    <input type="radio" id="pricerange2" name="payment">
+                                    <label for="pricerange2">Under <i class="fa-solid fa-indian-rupee-sign f_sz13"></i>2500</label>
+                                 </div>   
+                                 <div class="tp-checkout-payment-item">
+                                    <input type="radio" id="pricerange3" name="payment">
+                                    <label for="pricerange3"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>2500 to <i class="fa-solid fa-indian-rupee-sign f_sz13"></i>5000</label>
+                                 </div>   
+                                 <div class="tp-checkout-payment-item">
+                                    <input type="radio" id="pricerange4" name="payment">
+                                    <label for="pricerange4"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>5000 to <i class="fa-solid fa-indian-rupee-sign f_sz13"></i>10000</label>
+                                 </div>  
+                                 <div class="tp-checkout-payment-item">
+                                    <input type="radio" id="pricerange5" name="payment">
+                                    <label for="pricerange5"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>10000 to <i class="fa-solid fa-indian-rupee-sign f_sz13"></i>20000</label>
+                                 </div>   
+                              </div>
+                           </div>
+                        </div>
+                </div>
+               
+               <!-- categories -->
+                <div class="top_products_filtertype p-relative">
+                  <h3 class="tp-shop-widget-title">Categories</h3>
+                  <div>
+                     <div class="tp-shop-widget-categories tp_categories">
+                        <div class="tp-shop-widget-checkbox tp_filter_categories">
+                           <ul class="filter-items d-flex flex-wrap">
+                           <li class="filter-item">
+                              <a href="#"><div class="tp-shop-widget-brand-item">All</div></a>
+                           </li>
+                           <li class="filter-item">
+                              <div class="w-100 d-inline-flex p-relative catdrpdwn1 crsr_pntr">
+                              <div class="tp-shop-widget-brand-item">Apparel and Footwear</div>
+                              <div class="cat_drpdwn"><i class="fa-solid fa-angle-down"></i></div>
+                              </div>
+
+                              <div class="subcategorylist1" style="display: none;">
+                              <ul class="filter-items d-flex flex-wrap ml-20 mt-10">
+                                 <li class="filter-item">
+                                       <div class="w-100 d-inline-flex p-relative subcatdrpdwn1 crsr_pntr">
+                                          <div class="tp-shop-widget-brand-item">Men's Apparel</div>
+                                          <div class="cat_drpdwn right0"><i class="fa-solid fa-angle-down"></i></div>
+                                       </div>
+                                        <div class="childcategorylist1" style="display: none;">
+                                           <ul class="filter-items d-flex flex-wrap ml-20 mt-10">
+                                              <li class="filter-item">
+                                                   <a href="#"><div class="tp-shop-widget-brand-item">Casual Shirts</div></a>
+                                              </li>
+                                              <li class="filter-item">
+                                                   <a href="#"><div class="tp-shop-widget-brand-item">Formal Shirts</div></a>
+                                              </li>
+                                              <li class="filter-item">
+                                                   <a href="#"><div class="tp-shop-widget-brand-item">Tshirt</div></a>
+                                              </li>
+                                             
+                                           </ul>
+                                        </div>
+
+
+
+                                    </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Women's Apparel</div></a>
+                                 </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Boots & Shoes</div></a>
+                                 </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Kids & Baby Apparel</div></a>
+                                 </li>
+                              </ul>
+                              </div>
+
+                           </li>
+                           <li class="filter-item">
+                              <a href="#"><div class="tp-shop-widget-brand-item">Backpacks, Bags & Cases</div></a>
+                           </li>
+                           <li class="filter-item">
+                              <a href="#"><div class="tp-shop-widget-brand-item">Eyewear, Watches & Jewelry</div></a>
+                           </li>
+                           <li class="filter-item">
+                              <div class="w-100 d-inline-flex p-relative catdrpdwn2 crsr_pntr">
+                              <div class="tp-shop-widget-brand-item">Fitness, Health & Nutrition</div>
+                              <div class="cat_drpdwn"><i class="fa-solid fa-angle-down crsr_pntr"></i></div>
+                              </div>
+
+                              <div class="subcategorylist2" style="display: none;">
+                              <ul class="filter-items d-flex flex-wrap ml-20 mt-10">
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Health & Nutrition</div></a>
+                                 </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Training Gear</div></a>
+                                 </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Hydration</div></a>
+                                 </li>
+                                 <li class="filter-item">
+                                    <a href="#"><div class="tp-shop-widget-brand-item">Recovery</div></a>
+                                 </li>
+                              </ul>
+                              </div>
+
+                           </li>
+                           
+                           <li class="filter-item">
+                              <a href="#"><div class="tp-shop-widget-brand-item">Home & Family</div></a>
+                           </li>
+                           
+
+                  
+                           <!-- <li>
+                              <div class="prod_filter_seemoreless crsr_pntr">See More</div>
+                           </li> -->
+
+                           
+                           </ul>
+                        </div>  
+
+                     </div>
+                  </div>
+
+                  </div>
+
+              
+
+                           
+            </div>
+         </div>
+      </div>
+      <!-- filter offcanvas area end -->
+
+      <main>
+
+         <!-- breadcrumb area start -->
+         <section class="breadcrumb__area breadcrumb__style-2 include-bg pt-150 pb-20">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-12">
+                      <div class="breadcrumb__content p-relative z-index-1">
+                        <h3 class="breadcrumb__title">Products</h3>
+                        <div class="breadcrumb__list">
+                           <span><a href="#">Home</a></span>
+                           <span>Products</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- breadcrumb area end -->
+
+          <!-- shop area start -->
+         <section class="tp-shop-area pb-120">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="tp-shop-main-wrapper">
+                        
+                         <div class="tp-shop-top mb-45">
+                           <div class="row">
+                              
+                              <div class="col-6 col-xl-6">
+                                 <div class="tp-shop-top-right d-sm-flex align-items-center mt-0">
+                                   
+                                    <div class="tp-shop-top-filter ms-0 mt-0">
+                                       <button type="button" class="tp-filter-btn filter-open-btn">
+                                          <i class="fa-solid fa-sliders"></i>
+                                          Filter
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-6 col-xl-6">
+                                 <div class="justify-content-xl-end d-flex">
+                                 <div class="tp-shop-top-select">
+                                       <select class="form-select">
+                                          <option >Default Sorting</option>
+                                          <option >Low to High</option>
+                                          <option >High to Low</option>
+                                          <option >Newly Added</option>
+                                          <option >On Sale</option>
+                                       </select>
+                                 </div> 
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                        
+                        <div class="tp-shop-items-wrapper tp-shop-item-primary">
+                          <div class="row infinite-container">
+                                    <div class="col-xl-3 col-md-6 col-sm-6 infinite-item">
+                                       <div class="tp-product-item transition-3 mb-25">
+                                       <div class="tp-product-thumb p-relative fix m-img">
+                                          <a href="product_details.html">
+                                             <img src="assets/img/product/product-6.jpg" alt="product-electronic">
+                                          </a>
+
+                                            <!-- product badge -->
+                                             <div class="tp-product-badge">
+                                                <i class="fa-regular fa-heart crsr_pntr"></i>
+                                                <!-- <i class="fa-solid fa-heart crsr_pntr f_pink"></i> -->
+                                             </div>
+               
+                                       </div>
+                                       <!-- product content -->
+                                       <div class="tp-product-content">
+                                          <div class="tp-product-category">
+                                             <a href="#">Fast Charger</a>
+                                          </div>
+                                          <h3 class="tp-product-title">
+                                             <a href="product_details.html">
+                                                Fast Charger 6.5A Type-C Cable For OPPO Find X3 Pro
+                                             </a>
+                                          </h3>
+                                          <div class="tp-product-rating d-flex align-items-center">
+                                             <div class="tp-product-rating-icon">
+                                                <span class="f_yellow"><i class="fa-solid fa-star"></i></span>
+                                                <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                <span class="f_grey7"><i class="fa-solid fa-star-half-stroke"></i></span>
+                                             </div>
+                                             <div class="tp-product-rating-text">
+                                                <span>(7 Review)</span>
+                                             </div>
+                                          </div>
+                                          <div class="tp-product-price-wrapper">
+                                             <span class="tp-product-price old-price"><i class="fa-solid fa-indian-rupee-sign f_sz11"></i>475.00</span>
+                                             <span class="tp-product-price new-price"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>350.00</span>
+                                          </div>
+                                          <div class="w-100 d-inline-flex flex-row flex-wrap align-items-center mt-10">
+                                            <div class="col-8">
+                                              <div class="tp-product-list-add-to-cart">
+                                                <button class="tp-product-list-add-to-cart-btn">Add To Cart</button>
+                                             </div>
+                                            </div>
+                                            <div class="col-4">
+                                              <div class="f_red mt-5 f_bold text-end f_sz12">Only 5 left</div>
+                                            </div>
+                                          </div>
+                                          
+                                       </div>
+                                    </div>
+                                    </div>
+                                   
+                                     <div class="col-xl-3 col-md-6 col-sm-6 infinite-item">
+                                        <div class="tp-product-item transition-3 mb-25">
+                                             <div class="tp-product-thumb p-relative fix m-img">
+                                                <a href="product_details.html">
+                                                   <img src="assets/img/product/product-7.jpg" alt="product-electronic">
+                                                </a>
+
+                                                 <!-- product badge -->
+                                             <div class="tp-product-badge">
+                                                <i class="fa-regular fa-heart crsr_pntr"></i>
+                                                <!-- <i class="fa-solid fa-heart crsr_pntr f_pink"></i> -->
+                                             </div>
+                           
+                                             
+                                             </div>
+                                             <!-- product content -->
+                                             <div class="tp-product-content">
+                                                <div class="tp-product-category">
+                                                   <a href="#">Earbuds</a>
+                                                </div>
+                                                <h3 class="tp-product-title">
+                                                   <a href="product_details.html">
+                                                      True Wireless Noise Cancelling Earbuds with Apple.
+                                                   </a>
+                                                </h3>
+                                                <div class="tp-product-rating d-flex align-items-center">
+                                                   <div class="tp-product-rating-icon">
+                                                      <span class="f_yellow"><i class="fa-solid fa-star"></i></span>
+                                                      <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                      <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                      <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                      <span class="f_grey7"><i class="fa-solid fa-star-half-stroke"></i></span>
+                                                   </div>
+                                                   <div class="tp-product-rating-text">
+                                                      <span>(2 Review)</span>
+                                                   </div>
+                                                </div>
+                                                <div class="tp-product-price-wrapper">
+                                                   <span class="tp-product-price old-price"><i class="fa-solid fa-indian-rupee-sign f_sz11"></i>140.00</span>
+                                                   <span class="tp-product-price new-price"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>120.00</span>
+                                                </div>
+
+                                                <div class="w-100 d-inline-flex flex-row flex-wrap align-items-center mt-10">
+                                                <div class="col-8">
+                                                   <div class="tp-product-list-add-to-cart">
+                                                      <button class="tp-product-list-add-to-cart-btn">Add To Cart</button>
+                                                   </div>
+                                                </div>
+                                                <div class="col-4">
+                                                   <div class="f_red mt-5 f_bold text-end f_sz12">Only 5 left</div>
+                                                </div>
+                                                </div>
+
+                                             </div>
+                                          </div>
+                                     </div>
+
+                                     <div class="col-xl-3 col-md-6 col-sm-6 infinite-item">
+                                        <div class="tp-product-item transition-3 mb-25">
+                                          <div class="tp-product-thumb p-relative fix m-img">
+                                             <a href="product_details.html">
+                                                <img src="assets/img/product/product-8.jpg" alt="product-electronic">
+                                             </a>
+                  
+                                              <!-- product badge -->
+                                             <div class="tp-product-badge">
+                                                <i class="fa-regular fa-heart crsr_pntr"></i>
+                                                <!-- <i class="fa-solid fa-heart crsr_pntr f_pink"></i> -->
+                                             </div>
+                                          
+                                          </div>
+                                          <!-- product content -->
+                                          <div class="tp-product-content">
+                                             <div class="tp-product-category">
+                                                <a href="#">Tablet</a>
+                                             </div>
+                                             <h3 class="tp-product-title">
+                                                <a href="product_details.html">
+                                                   Galaxy Tab S6 Lite 10.4-inch Android Tablet 128GB.
+                                                </a>
+                                             </h3>
+                                             <div class="tp-product-rating d-flex align-items-center">
+                                                <div class="tp-product-rating-icon">
+                                                   <span class="f_yellow"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star-half-stroke"></i></span>
+                                                </div>
+                                                <div class="tp-product-rating-text">
+                                                   <span>(7 Review)</span>
+                                                </div>
+                                             </div>
+                                             <div class="tp-product-price-wrapper">
+                                                <span class="tp-product-price old-price"><i class="fa-solid fa-indian-rupee-sign f_sz11"></i>320.00</span>
+                                                <span class="tp-product-price new-price"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>247.00</span>
+                                             </div>
+
+                                             <div class="w-100 d-inline-flex flex-row flex-wrap align-items-center mt-10">
+                                                <div class="col-8">
+                                                   <div class="tp-product-list-add-to-cart">
+                                                      <button class="tp-product-list-add-to-cart-btn">Add To Cart</button>
+                                                   </div>
+                                                </div>
+                                                <div class="col-4">
+                                                   <div class="f_red mt-5 f_bold text-end f_sz12">Only 5 left</div>
+                                                </div>
+                                             </div>
+
+                                          </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="col-xl-3 col-md-6 col-sm-6 infinite-item">
+                                       <div class="tp-product-item transition-3 mb-25">
+                                          <div class="tp-product-thumb p-relative fix m-img">
+                                             <a href="product_details.html">
+                                                <img src="assets/img/product/product-9.jpg" alt="product-electronic">
+                                             </a>
+                  
+                                              <!-- product badge -->
+                                             <div class="tp-product-badge">
+                                                <i class="fa-regular fa-heart crsr_pntr"></i>
+                                                <!-- <i class="fa-solid fa-heart crsr_pntr f_pink"></i> -->
+                                             </div>
+                  
+                                          
+                                          </div>
+                                          <!-- product content -->
+                                          <div class="tp-product-content">
+                                             <div class="tp-product-category">
+                                                <a href="#">Tablet</a>
+                                             </div>
+                                             <h3 class="tp-product-title">
+                                                <a href="product_details.html">
+                                                   Galaxy Tab S6 Lite 10.4-inch Android Tablet 128GB.
+                                                </a>
+                                             </h3>
+                                             <div class="tp-product-rating d-flex align-items-center">
+                                                <div class="tp-product-rating-icon">
+                                                   <span class="f_yellow"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star-half-stroke"></i></span>
+                                                </div>
+                                                <div class="tp-product-rating-text">
+                                                   <span>(7 Review)</span>
+                                                </div>
+                                             </div>
+                                             <div class="tp-product-price-wrapper">
+                                                <span class="tp-product-price old-price"><i class="fa-solid fa-indian-rupee-sign f_sz11"></i>320.00</span>
+                                                <span class="tp-product-price new-price"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>247.00</span>
+                                             </div>
+
+                                            <div class="w-100 d-inline-flex flex-row flex-wrap align-items-center mt-10">
+                                             <div class="col-8">
+                                                <div class="tp-product-list-add-to-cart">
+                                                   <button class="tp-product-list-add-to-cart-btn">Add To Cart</button>
+                                                </div>
+                                             </div>
+                                             <div class="col-4">
+                                                <div class="f_red mt-5 f_bold text-end f_sz12">Only 5 left</div>
+                                             </div>
+                                          </div>
+
+                                          </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="col-xl-3 col-md-6 col-sm-6 infinite-item">
+                                        <div class="tp-product-item transition-3 mb-25">
+                                          <div class="tp-product-thumb p-relative fix m-img">
+                                             <a href="product_details.html">
+                                                <img src="assets/img/product/product-10.jpg" alt="product-electronic">
+                                             </a>
+                  
+                                             
+                                              <!-- product badge -->
+                                             <div class="tp-product-badge">
+                                                <!-- <i class="fa-regular fa-heart crsr_pntr"></i> -->
+                                                <i class="fa-solid fa-heart crsr_pntr f_pink"></i>
+                                             </div>
+                  
+                                          
+                                          </div>
+                                          <!-- product content -->
+                                          <div class="tp-product-content">
+                                             <div class="tp-product-category">
+                                                <a href="#">Tablet</a>
+                                             </div>
+                                             <h3 class="tp-product-title">
+                                                <a href="product_details.html">
+                                                   Galaxy Tab S6 Lite 10.4-inch Android Tablet 128GB.
+                                                </a>
+                                             </h3>
+                                             <div class="tp-product-rating d-flex align-items-center">
+                                                <div class="tp-product-rating-icon">
+                                                   <span class="f_yellow"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star"></i></span>
+                                                   <span class="f_grey7"><i class="fa-solid fa-star-half-stroke"></i></span>
+                                                </div>
+                                                <div class="tp-product-rating-text">
+                                                   <span>(7 Review)</span>
+                                                </div>
+                                             </div>
+                                             <div class="tp-product-price-wrapper">
+                                                <span class="tp-product-price old-price"><i class="fa-solid fa-indian-rupee-sign f_sz11"></i>320.00</span>
+                                                <span class="tp-product-price new-price"><i class="fa-solid fa-indian-rupee-sign f_sz13"></i>247.00</span>
+                                             </div>
+
+                                              <div class="w-100 d-inline-flex flex-row flex-wrap align-items-center mt-10">
+                                                <div class="col-8">
+                                                   <div class="tp-product-list-add-to-cart">
+                                                      <button class="tp-product-list-add-to-cart-btn">Add To Cart</button>
+                                                   </div>
+                                                </div>
+                                                <div class="col-4">
+                                                   <!-- <div class="f_red mt-5 f_bold text-end f_sz12">Only 5 left</div> -->
+                                                </div>
+                                              </div>
+
+
+                                          </div>
+                                       </div>
+                                     </div>
+
+                                    
+                                    
+                                 </div>                      
+                        </div>
+                       
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- shop area end -->
+
+      </main> 
+      
+      
+ <!-- footer area start -->
+      <footer class="mt-auto">
+         <div class="tp-footer-area tp-footer-style-2 tp-footer-style-primary tp-footer-style-6 pt-60 pb-30 pb-xl-0">
+            <div class="tp-footer-top pb-30">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-1 mb-20"> 
+                           <div class="tp-footer-widget-content">
+                              <div class="tp-footer-logo text-xl-start text-center">
+                                 <a href="#">
+                                    <img src="assets/img/logo/logo.png" alt="MYTAMILKART">
+                                 </a>
+                              </div>
+
+                              <div class="tp-footer-social text-center text-lg-start">
+                                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                              </div>
+                            
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Contact Us</a></li>
+                                 <li><a href="#">Cancellation & Refund </a></li>
+                                 <li><a href="#">Shipping Policy</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content justify-content-start justify-content-md-end d-flex">
+                              <div class="tp-footer-contact">
+                                 
+                                 <div class="tp-footer-contact-item d-flex align-items-start">
+                                    <div class="tp-footer-contact-icon">
+                                       <span>
+                                          <i class="fa-solid fa-location-dot"></i>
+                                       </span>
+                                    </div>
+                                    <div class="tp-footer-contact-content">
+                                       <div class="f_white f_sz16">S F No 435/1 C1 A5   BLE Media Building 1st Floor, <br> Palathurai Road, Madukkarai, Coimbatore - 641105</div>
+                                    </div>
+                                 </div>
+
+                                 <div class="tp-footer-contact-item d-flex align-items-start mt-25">
+                                    <div class="tp-footer-contact-icon">
+                                       <span>
+                                         <i class="fa-solid fa-phone"></i>
+                                       </span>
+                                    </div>
+                                    <div class="tp-footer-contact-content">
+                                       <p><a href="#"><span class="f_white">xxxxxx8536</span></a></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                   
+
+                     <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">எங்களைப் பற்றி</a></li>
+                                 <li><a href="#">தனியுரிமை</a></li>
+                                 <li><a href="#">விதிமுறைகள்</a></li>
+                                 <li><a href="#">தொடர்பு</a></li>
+                                 <li><a href="#">அடிக்கடி கேட்கப்படும் கேள்விகள்</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">உதவி மையம்</a></li>
+                                 <li><a href="#">வலைப்பதிவு</a></li>
+                                 <li><a href="#">அனுமதி இல்லாத பொருட்கள்</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                       <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="tp-footer-widget footer-col-3 mb-20">
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">வேலை வாய்ப்புகள்</a></li>
+                                 <li><a href="#">வர்த்தக அடையாளம்</a></li>
+                                 <li><a href="#">ஊடக விசாரணை</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div> -->
+
+
+                     
+                  </div>
+               </div>
+            </div>
+
+            <div class="tp-footer-bottom">
+               <div class="container">
+                  <div class="tp-footer-bottom-wrapper">
+                     <div class="row align-items-center">
+                        <div class="col-md-12">
+                           <div class="tp-footer-copyright text-center">
+                              <p>Copyright © 2025.All Rights Reserved</p>
+                           </div>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+         </div>
+      </footer>
+      <!-- footer area end -->
+
+
+      <!-- JS here -->
+      <script src="assets/js/vendor/jquery.js"></script>
+      <!-- <script src="assets/js/vendor/waypoints.js"></script> -->
+      <script src="assets/js/bootstrap-bundle.js"></script>
+      <script src="assets/js/meanmenu.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!--<script src="assets/js/slick.js"></script> -->
+      <!-- <script src="assets/js/range-slider.js"></script>
+      <script src="assets/js/magnific-popup.js"></script> -->
+      <script src="assets/js/nice-select.js"></script>
+      <!-- <script src="assets/js/purecounter.js"></script>
+      <script src="assets/js/countdown.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/isotope-pkgd.js"></script>
+      <script src="assets/js/imagesloaded-pkgd.js"></script>
+      <script src="assets/js/ajax-form.js"></script> -->
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+         $( ".catdrpdwn1").click(function() {     
+         $('.subcategorylist1').toggle(1000);
+         });
+
+         $( ".catdrpdwn2").click(function() {     
+         $('.subcategorylist2').toggle(1000);
+         });
+
+         $( ".subcatdrpdwn1").click(function() {     
+         $('.childcategorylist1').toggle(1000);
+         });
+      </script>
+     
+   </body>
+
+</html>
